@@ -25,7 +25,7 @@ const cardVariants = {
 const projects = [
     {
         title: "360 Realtors LLP",
-        desc: "Drag-and-drop upload, transparency preview, progress feedback, and theme toggle.",
+        desc: "Discover Properties in India",
         image: proj1,
         tags: ["JavaScript", "HTML", "CSS", "Bootstrap", "Jquery", "Photoshop"],
         demo: "https://www.360realtors.com/",
@@ -33,7 +33,7 @@ const projects = [
     },
     {
         title: "Holistic Healing",
-        desc: "Reusable components, design tokens, responsive grid, and accessible forms.",
+        desc: "Healing from Within, Naturally.",
         image: proj2,
         tags: ["JavaScript", "HTML", "CSS", "Photoshop", "Bootstrap"],
         demo: "https://innateheal.com/",
@@ -41,7 +41,7 @@ const projects = [
     },
     {
         title: "Axon Developers",
-        desc: "Charts, sockets, skeleton loading, and optimistic UI updates.",
+        desc: "Driving innovation & building communities.",
         image: proj3,
         tags: ["JavaScript", "HTML", "CSS", "Bootstrap", "Jquery", "Photoshop"],
         demo: "https://www.axondevelopers.com/",
@@ -49,7 +49,7 @@ const projects = [
     },
     {
         title: "360 CRM",
-        desc: "Charts, sockets, skeleton loading, and optimistic UI updates.",
+        desc: "Manage Customer Relationships Effectively",
         image: proj4,
         tags: ["JavaScript", "HTML", "CSS", "Bootstrap", "Jquery", "Photoshop"],
         demo: "https://www.360crm.in/",
@@ -65,7 +65,7 @@ const projects = [
     },
     {
         title: "Indsource",
-        desc: "Charts, sockets, skeleton loading, and optimistic UI updates.",
+        desc: "Business Process Outsourcing Solutions",
         image: proj6,
         tags: ["JavaScript", "HTML", "CSS", "Bootstrap", "Jquery", "Photoshop"],
         demo: "https://indsource.net/",
@@ -74,7 +74,7 @@ const projects = [
     ,
     {
         title: "Times Property",
-        desc: "Charts, sockets, skeleton loading, and optimistic UI updates.",
+        desc: "Search Properties with Times Property",
         image: proj7,
         tags: ["JavaScript", "HTML", "CSS", "Bootstrap", "Jquery", "Photoshop"],
         demo: "https://timesproperty.com/",
@@ -83,7 +83,7 @@ const projects = [
     ,
     {
         title: "360 XLR8",
-        desc: "Charts, sockets, skeleton loading, and optimistic UI updates.",
+        desc: "Biggest Referral Network for Real Estate",
         image: proj8,
         tags: ["JavaScript", "HTML", "CSS", "Bootstrap", "Jquery", "Photoshop"],
         demo: "https://www.360xlr8.com/",
@@ -97,7 +97,7 @@ export default function Projects() {
             <Container maxWidth="lg">
                 <Stack direction="row" alignItems="center" justifyContent="space-between" sx={{ mb: 3 }}>
                     <Typography variant="h4" sx={{ fontWeight: 700 }}>Projects</Typography>
-                    <Button variant="text" href="https://github.com/" target="_blank">More on GitHub</Button>
+                    {/* <Button variant="text" href="https://github.com/" target="_blank">More on GitHub</Button> */}
                 </Stack>
                 <Typography variant="body2" color="text.secondary" sx={{ mb: 4 }}>
                     Selected work showcasing performance, accessibility, and delightful UX.
