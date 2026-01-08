@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Container, Typography, Stack, Button, Chip } from "@mui/material";
 import { motion } from "framer-motion";
-import heroBanner from "../assets/hero-banner.jpg"; // place your image in src/assets/
+import heroBanner from "../assets/hero-banner.png"; // place your image in src/assets/
 
 const fadeUp = {
     hidden: { opacity: 0, y: 24 },
