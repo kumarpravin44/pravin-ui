@@ -9,7 +9,7 @@ export default function Footer() {
             <Container maxWidth="lg">
                 <Stack direction="row" alignItems="center" justifyContent="space-between">
                     <Typography variant="body2" color="text.secondary">
-                        © {new Date().getFullYear()} Pravin • UI Developer
+                        © {new Date().getFullYear()} Pravin • Lead UI Developer
                     </Typography>
                     <Stack direction="row" spacing={1}>
                         <IconButton href="https://github.com/kumarpravin44" target="_blank" aria-label="GitHub">
