@@ -22,6 +22,7 @@ export default function Navbar({ mode, onToggle }) {
                 <Stack direction="row" spacing={1} sx={{ display: { xs: "none", md: "flex" } }}>
                     <Button href="#skills">Skills</Button>
                     <Button href="#projects">Projects</Button>
+                    <Button href="tel:+919971411966">Call</Button>
                     <Button href="#contact" variant="contained">Contact</Button>
                 </Stack>
                 <IconButton aria-label="toggle theme" onClick={onToggle} sx={{ ml: 1 }}>

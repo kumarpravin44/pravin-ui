@@ -24,69 +24,69 @@ const cardVariants = {
 
 const projects = [
     {
-        title: "Background Remover App",
+        title: "360 Realtors LLP",
         desc: "Drag-and-drop upload, transparency preview, progress feedback, and theme toggle.",
         image: proj1,
-        tags: ["React", "MUI", "Worker", "Canvas"],
-        demo: "#",
-        repo: "#"
+        tags: ["JavaScript", "HTML", "CSS", "Bootstrap", "Jquery", "Photoshop"],
+        demo: "https://www.360realtors.com/",
+        repo: ""
     },
     {
-        title: "Portfolio UI Kit",
+        title: "Holistic Healing",
         desc: "Reusable components, design tokens, responsive grid, and accessible forms.",
         image: proj2,
-        tags: ["Design System", "Accessibility"],
-        demo: "#",
-        repo: "#"
+        tags: ["JavaScript", "HTML", "CSS", "Photoshop", "Bootstrap"],
+        demo: "https://innateheal.com/",
+        repo: ""
     },
     {
-        title: "Realtime Dashboard",
+        title: "Axon Developers",
         desc: "Charts, sockets, skeleton loading, and optimistic UI updates.",
         image: proj3,
-        tags: ["Vite", "React Query", "MUI"],
-        demo: "#",
-        repo: "#"
+        tags: ["JavaScript", "HTML", "CSS", "Bootstrap", "Jquery", "Photoshop"],
+        demo: "https://www.axondevelopers.com/",
+        repo: ""
     },
     {
-        title: "Realtime Dashboard",
+        title: "360 CRM",
         desc: "Charts, sockets, skeleton loading, and optimistic UI updates.",
         image: proj4,
-        tags: ["Vite", "React Query", "MUI"],
-        demo: "#",
+        tags: ["JavaScript", "HTML", "CSS", "Bootstrap", "Jquery", "Photoshop"],
+        demo: "https://www.360crm.in/",
         repo: "#"
     },
     {
-        title: "Realtime Dashboard",
-        desc: "Charts, sockets, skeleton loading, and optimistic UI updates.",
+        title: "360 FRXNL",
+        desc: "Fractional Ownership in Prime Properties",
         image: proj5,
-        tags: ["Vite", "React Query", "MUI"],
-        demo: "#",
+        tags: ["JavaScript", "HTML", "CSS", "Bootstrap", "Jquery", "Photoshop"],
+        demo: "https://360frxnl.com/",
         repo: "#"
     },
     {
-        title: "Realtime Dashboard",
+        title: "Indsource",
         desc: "Charts, sockets, skeleton loading, and optimistic UI updates.",
         image: proj6,
-        tags: ["Vite", "React Query", "MUI"],
-        demo: "#",
+        tags: ["JavaScript", "HTML", "CSS", "Bootstrap", "Jquery", "Photoshop"],
+        demo: "https://indsource.net/",
         repo: "#"
     }
     ,
     {
-        title: "Realtime Dashboard",
+        title: "Times Property",
         desc: "Charts, sockets, skeleton loading, and optimistic UI updates.",
         image: proj7,
-        tags: ["Vite", "React Query", "MUI"],
-        demo: "#",
+        tags: ["JavaScript", "HTML", "CSS", "Bootstrap", "Jquery", "Photoshop"],
+        demo: "https://timesproperty.com/",
         repo: "#"
     }
     ,
     {
-        title: "Realtime Dashboard",
+        title: "360 XLR8",
         desc: "Charts, sockets, skeleton loading, and optimistic UI updates.",
         image: proj8,
-        tags: ["Vite", "React Query", "MUI"],
-        demo: "#",
+        tags: ["JavaScript", "HTML", "CSS", "Bootstrap", "Jquery", "Photoshop"],
+        demo: "https://www.360xlr8.com/",
         repo: "#"
     }
 ];
@@ -179,9 +179,9 @@ export default function Projects() {
                                                 <Button size="small" variant="contained" href={p.demo} target="_blank">
                                                     Demo
                                                 </Button>
-                                                <Button size="small" variant="outlined" href={p.repo} target="_blank">
+                                                {/* <Button size="small" variant="outlined" href={p.repo} target="_blank">
                                                     Code
-                                                </Button>
+                                                </Button> */}
                                             </Stack>
                                         </CardContent>
                                     </CardActionArea>

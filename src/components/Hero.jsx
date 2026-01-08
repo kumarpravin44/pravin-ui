@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Container, Typography, Stack, Button, Chip } from "@mui/material";
 import { motion } from "framer-motion";
-import heroBanner from "../assets/hero-banner.png"; // place your image in src/assets/
+import heroBanner from "../assets/hero-banner.jpg"; // place your image in src/assets/
 
 const fadeUp = {
     hidden: { opacity: 0, y: 24 },
@@ -32,7 +32,7 @@ export default function Hero() {
                     position: "absolute",
                     inset: 0,
                     background:
-                        "linear-gradient(180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.45) 35%, rgba(0,0,0,0.25) 100%)"
+                        "rgba(00,00,00,.8)"
                 }}
             />
             {/* Tint overlay for brand feel */}
