@@ -17,7 +17,7 @@ export default function Navbar({ mode, onToggle }) {
         >
             <Toolbar sx={{ maxWidth: 1200, mx: "auto", width: "100%" }}>
                 <Typography variant="h6" sx={{ fontWeight: 700, flexGrow: 1 }}>
-                    Pravin • UI Developer
+                    Pravin • Lead UI Developer
                 </Typography>
                 <Stack direction="row" spacing={1} sx={{ display: { xs: "none", md: "flex" } }}>
                     <Button href="#skills">Skills</Button>
