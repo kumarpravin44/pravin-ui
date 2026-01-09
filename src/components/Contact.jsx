@@ -10,13 +10,13 @@ export default function Contact() {
         e.preventDefault();
         emailjs.send(
             "service_gl8no8j",      // from EmailJS dashboard
-            "YOUR_TEMPLATE_ID",     // from EmailJS dashboard
+            "template_9453syx",     // from EmailJS dashboard
             {
                 from_name: form.name,
                 from_email: form.email,
                 message: form.message,
             },
-            "YOUR_USER_ID"          // public key from EmailJS
+            "QKcX3jEM4HAzWmAbC"          // public key from EmailJS
         )
             .then(() => {
                 alert("Message sent successfully!");
