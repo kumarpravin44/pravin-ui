@@ -16,7 +16,7 @@ export default function Contact() {
                 from_email: form.email,
                 message: form.message,
             },
-            "QKcX3jEM4HAzWmAbC"          // public key from EmailJS
+            "36pYy8V2d0sgpAG5l"          // public key from EmailJS
         )
             .then(() => {
                 alert("Message sent successfully!");
