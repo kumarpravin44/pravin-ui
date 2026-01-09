@@ -13,6 +13,7 @@ export default function Contact() {
     const [form, setForm] = React.useState({
         name: "",
         email: "",
+        mobile: "",
         message: "",
     });
 
@@ -32,7 +33,7 @@ export default function Contact() {
                         method="POST"
                     >
                         <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-                            <Grid item size={{ xs: 12, sm: 6, md: 6 }} sx={{ mb: 2 }}>
+                            <Grid item size={{ xs: 12, sm: 6, md: 4 }} sx={{ mb: 2 }}>
                                 <TextField
                                     label="Name"
                                     name="name"
@@ -42,12 +43,23 @@ export default function Contact() {
                                     required
                                 />
                             </Grid>
-                            <Grid item size={{ xs: 12, sm: 6, md: 6 }} sx={{ mb: 2 }}>
+                            <Grid item size={{ xs: 12, sm: 6, md: 4 }} sx={{ mb: 2 }}>
                                 <TextField
                                     type="email"
                                     label="Email"
                                     name="email"
                                     value={form.email}
+                                    onChange={onChange}
+                                    fullWidth
+                                    required
+                                />
+                            </Grid>
+                            <Grid item size={{ xs: 12, sm: 6, md: 4 }} sx={{ mb: 2 }}>
+                                <TextField
+                                    type="tel"
+                                    label="mobile"
+                                    name="mobile"
+                                    value={form.mobile}
                                     onChange={onChange}
                                     fullWidth
                                     required
