@@ -83,9 +83,9 @@ const projects = [
     ,
     {
         title: "360 XLR8",
-        desc: "Biggest Referral Network for Real Estate",
+        desc: "- It is promoted as India’s biggest referral program for real estate, allowing users to earn commissions by referring property buyers or building referral teams.",
         image: proj8,
-        tags: ["JavaScript", "HTML", "CSS", "Bootstrap", "Jquery", "Photoshop"],
+        tags: ["HTML5", "CSS3", "JavaScript", "Bootstrap", "PHP", "MySQL"],
         demo: "https://www.360xlr8.com/",
         repo: "#"
     }
