@@ -9,7 +9,7 @@ import Contact from "./components/Contact.jsx";
 import Footer from "./components/Footer.jsx";
 
 export default function App() {
-  const [mode, setMode] = React.useState("light");
+  const [mode, setMode] = React.useState("dark");
 
   const theme = React.useMemo(
     () =>
