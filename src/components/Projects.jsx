@@ -161,7 +161,7 @@ export default function Projects() {
                                                 {p.desc}
                                             </Typography>
 
-                                            <Stack direction="row" spacing={1} flexWrap="wrap">
+                                            <Stack direction="row" spacing={1} marginBottom={2} flexWrap="wrap">
                                                 {p.tags.map((t, i) => (
                                                     <Chip
                                                         key={i}
@@ -169,6 +169,7 @@ export default function Projects() {
                                                         size="small"
                                                         color={i % 2 === 0 ? "primary" : "secondary"}
                                                         variant="outlined"
+
                                                     />
                                                 ))}
                                             </Stack>
