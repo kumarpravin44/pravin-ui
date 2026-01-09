@@ -161,9 +161,11 @@ export default function Projects() {
                                                 {p.desc}
                                             </Typography>
 
-                                            <Stack direction="row" spacing={1} marginBottom={2} flexWrap="wrap">
+                                            <Stack direction="row" spacing={1} flexWrap="wrap">
                                                 {p.tags.map((t, i) => (
                                                     <Chip
+                                                        className="chip-spacing"
+
                                                         key={i}
                                                         label={t}
                                                         size="small"

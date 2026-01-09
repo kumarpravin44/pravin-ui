@@ -53,7 +53,7 @@ export default function Hero() {
                     </motion.div>
 
                     <motion.div initial="hidden" animate="visible" variants={fadeUp} custom={1}>
-                        <Typography variant="h3" sx={{ lineHeight: 1.1 }}>
+                        <Typography className="top-heading" variant="h3" sx={{ lineHeight: 1.1 }}>
                             Crafting clean, accessible, and performant{" "}
                             <Typography component="span" color="secondary" sx={{ fontWeight: 800 }}>
                                 UI
@@ -62,7 +62,7 @@ export default function Hero() {
                     </motion.div>
 
                     <motion.div initial="hidden" animate="visible" variants={fadeUp} custom={2}>
-                        <Typography variant="body1" sx={{ maxWidth: 760, color: "rgba(255,255,255,0.85)" }}>
+                        <Typography className="sub-heading" variant="body1" sx={{ maxWidth: 760, color: "rgba(255,255,255,0.85)" }}>
                             I am Pravin Kumar, a Lead UI Developer with over 12+ years of experience in web design and front-end development. I specialize in creating responsive, user-centric web interfaces and have successfully delivered 100+ projects across diverse domains. My technical expertise includes Photoshop, HTML5, CSS3, JavaScript, jQuery, React, Vite, and Material UI. I build fast, responsive interfaces
                             with polished UX, scalable architecture, and maintainable code.
                         </Typography>

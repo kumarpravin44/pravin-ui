@@ -168,3 +168,22 @@ button:hover {
     gap: 1rem;
   }
 }
+
+.chip-spacing {
+  margin: 0 7px 7px 0 !important;
+  /* or any value */
+}
+
+@media (max-width:768px) {
+  .top-heading {
+    font-size: 1.5rem !important
+  }
+
+  .sub-heading {
+    font-size: 00.8rem !important
+  }
+
+  .logo-txt {
+    font-size: 1rem !important
+  }
+}
