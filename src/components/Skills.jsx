@@ -8,7 +8,7 @@ const categories = [
         skills: [
             { name: "HTML5", level: 100 },
             { name: "CSS3", level: 95 },
-            { name: "Sass", level: 60 },
+            { name: "Sass", level: 65 },
             { name: "Less", level: 60 },
             { name: "JavaScript (ES6+)", level: 60 }
         ]
@@ -16,30 +16,30 @@ const categories = [
     {
         title: "Modern JS frameworks",
         skills: [
-            { name: "React", level: 70 },
-            { name: "Angular", level: 70 },
-            { name: "Vue", level: 80 },
-            { name: "Vite", level: 80 }
+            { name: "React", level: 60 },
+            { name: "Angular", level: 40 },
+            { name: "Vue", level: 50 },
+            { name: "Vite", level: 40 }
         ]
     },
     {
         title: "CSS frameworks",
         skills: [
-            { name: "Tailwind CSS", level: 82 },
-            { name: "Bootstrap", level: 84 },
-            { name: "Material UI", level: 78 },
-            { name: "Foundation", level: 78 },
-            { name: "Bulma", level: 78 }
+            { name: "Tailwind CSS", level: 80 },
+            { name: "Bootstrap", level: 95 },
+            { name: "Material UI", level: 75 },
+            { name: "Foundation", level: 70 },
+            { name: "Bulma", level: 60 }
         ]
     },
     {
         title: "UI / UX Expertise",
         skills: [
             { name: "Figma / Adobe XD", level: 82 },
-            { name: "Visual/UI Design", level: 84 },
-            { name: "Responsive Design", level: 78 },
-            { name: "Interaction Design", level: 78 },
-            { name: "User Research", level: 78 }
+            { name: "Visual/UI Design", level: 80 },
+            { name: "Responsive Design", level: 100 },
+            { name: "Interaction Design", level: 100 },
+            { name: "User Research", level: 95 }
         ]
     },
 
@@ -47,20 +47,20 @@ const categories = [
     {
         title: "Bonus Skills",
         skills: [
-            { name: "TypeScript", level: 82 },
-            { name: "Next.js / SSR", level: 84 },
-            { name: "Micro-frontend architecture", level: 78 },
+            { name: "TypeScript", level: 60 },
+            { name: "Next.js / SSR", level: 50 },
+            { name: "Micro-frontend architecture", level: 95 },
 
-            { name: "PWA knowledge", level: 78 }
+            { name: "PWA knowledge", level: 50 }
         ]
     },
     {
         title: "Soft Skills",
         skills: [
             { name: "Strong communication skills", level: 82 },
-            { name: "Ownership & accountability", level: 84 },
-            { name: "Time management", level: 78 },
-            { name: "Requirement analysis", level: 78 },
+            { name: "Ownership & accountability", level: 95 },
+            { name: "Time management", level: 98 },
+            { name: "Requirement analysis", level: 100 },
             { name: "Stakeholder coordination", level: 78 }
         ]
     }
