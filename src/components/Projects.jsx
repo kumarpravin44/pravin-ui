@@ -103,9 +103,9 @@ export default function Projects() {
                     Selected work showcasing performance, accessibility, and delightful UX.
                 </Typography>
 
-                <Grid container spacing={5}>
+                <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
                     {projects.map((p, index) => (
-                        <Grid key={p.title} item xs={12} sm={6} md={4}>
+                        <Grid key={p.title} item size={{ xs: 12, sm: 4, md: 4 }}>
                             <motion.div
                                 custom={index}
                                 initial="hidden"
@@ -128,7 +128,7 @@ export default function Projects() {
                                         <Box sx={{ position: "relative" }}>
                                             <CardMedia
                                                 component="img"
-                                                height="250"
+                                                height="200"
                                                 image={p.image}
                                                 alt={p.title}
                                                 sx={{ objectFit: "cover" }}

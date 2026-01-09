@@ -80,9 +80,9 @@ export default function Skills() {
         <Box id="skills" sx={{ py: 8 }}>
             <Container maxWidth="lg">
                 <Typography variant="h4" sx={{ fontWeight: 700, mb: 4 }}>Skills</Typography>
-                <Grid container spacing={4}>
+                <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
                     {categories.map((cat, idx) => (
-                        <Grid key={cat.title} item xs={12} md={4}>
+                        <Grid key={cat.title} item size={{ xs: 6, sm: 4, md: 2 }}>
                             <motion.div custom={idx} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={item}>
                                 <Card sx={{ borderRadius: 1, boxShadow: 3 }}>
                                     <CardContent>

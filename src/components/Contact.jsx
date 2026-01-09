@@ -21,7 +21,7 @@ export default function Contact() {
 
     return (
         <Box id="contact" sx={{ py: 8 }}>
-            <Container maxWidth="sm">
+            <Container maxWidth="lg" spacing={2}>
                 <Typography variant="h4" sx={{ fontWeight: 700, mb: 3 }}>
                     Contact
                 </Typography>
@@ -31,8 +31,8 @@ export default function Contact() {
                         action="https://formspree.io/f/xwvvekrw" // 👉 replace with your Formspree form ID
                         method="POST"
                     >
-                        <Grid container spacing={2}>
-                            <Grid item xs={12}>
+                        <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
+                            <Grid item size={{ xs: 12, sm: 6, md: 6 }} sx={{ mb: 2 }}>
                                 <TextField
                                     label="Name"
                                     name="name"
@@ -42,7 +42,7 @@ export default function Contact() {
                                     required
                                 />
                             </Grid>
-                            <Grid item xs={12}>
+                            <Grid item size={{ xs: 12, sm: 6, md: 6 }} sx={{ mb: 2 }}>
                                 <TextField
                                     type="email"
                                     label="Email"
@@ -53,7 +53,7 @@ export default function Contact() {
                                     required
                                 />
                             </Grid>
-                            <Grid item xs={12}>
+                            <Grid item size={{ xs: 12, sm: 12, md: 12 }} sx={{ mb: 2 }}>
                                 <TextField
                                     label="Message"
                                     name="message"
@@ -65,7 +65,7 @@ export default function Contact() {
                                     required
                                 />
                             </Grid>
-                            <Grid item xs={12}>
+                            <Grid item size={{ xs: 12, sm: 12, md: 12 }}>
                                 <Button type="submit" variant="contained" fullWidth>
                                     Send Message
                                 </Button>
