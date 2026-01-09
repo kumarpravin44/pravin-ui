@@ -25,56 +25,56 @@ const cardVariants = {
 const projects = [
     {
         title: "360 Realtors LLP",
-        desc: "Discover Properties in India",
+        desc: "360 Realtors is positioned as India’s leading property consulting company, helping users find residential and commercial properties, offering home loan consultation, NRI services, legal and Vastu consultation, and after‑sales assistance.",
         image: proj1,
-        tags: ["JavaScript", "HTML", "CSS", "Bootstrap", "Jquery", "Photoshop"],
+        tags: ["HTML5", "CSS3", "JavaScript", "Bootstrap", "jQuery", "PHP", "MySQL", "SQL Server"],
         demo: "https://www.360realtors.com/",
         repo: ""
     },
     {
         title: "Holistic Healing",
-        desc: "Healing from Within, Naturally.",
+        desc: "Innate Heal positions itself as a holistic healing platform, offering articles, resources, and expert guidance on nutrition, supplements, mental health, women’s health, elderly care, and integrative approaches to chronic conditions.",
         image: proj2,
-        tags: ["JavaScript", "HTML", "CSS", "Photoshop", "Bootstrap"],
+        tags: ["HTML5", "CSS3", "JavaScript", "Bootstrap", "PHP", "MySQL/MariaDB"],
         demo: "https://innateheal.com/",
         repo: ""
     },
     {
         title: "Axon Developers",
-        desc: "Driving innovation & building communities.",
+        desc: "Axon Developers positions itself as a new‑age real estate development company based in Gurugram, India. It showcases residential, commercial, and retail projects, emphasizing innovation, sustainability, and design excellence.",
         image: proj3,
-        tags: ["JavaScript", "HTML", "CSS", "Bootstrap", "Jquery", "Photoshop"],
+        tags: ["HTML5", "CSS3", "JavaScript", "Bootstrap", "PHP", "MySQL/MariaDB"],
         demo: "https://www.axondevelopers.com/",
         repo: ""
     },
     {
         title: "360 CRM",
-        desc: "Manage Customer Relationships Effectively",
+        desc: "360CRM is part of the 360 Realtors group, designed to help manage customer relationships, property leads, and sales processes more effectively.",
         image: proj4,
-        tags: ["JavaScript", "HTML", "CSS", "Bootstrap", "Jquery", "Photoshop"],
+        tags: ["HTML5", "CSS3", "JavaScript", "Bootstrap", "JQuery", "CodeIgniter"],
         demo: "https://www.360crm.in/",
         repo: "#"
     },
     {
         title: "360 FRXNL",
-        desc: "Fractional Ownership in Prime Properties",
+        desc: "Provides information and access to fractional real estate investments, enabling multiple investors to co‑own premium properties.",
         image: proj5,
-        tags: ["JavaScript", "HTML", "CSS", "Bootstrap", "Jquery", "Photoshop"],
+        tags: ["HTML5", "CSS3", "JavaScript", "Bootstrap", "JQuery", "PHP", "MySQL/MariaDB", "Photoshop"],
         demo: "https://360frxnl.com/",
         repo: "#"
     },
     {
         title: "Indsource",
-        desc: "Business Process Outsourcing Solutions",
+        desc: "Showcases Indsource’s outsourcing solutions, including customer service, back‑office support, and IT services",
         image: proj6,
-        tags: ["JavaScript", "HTML", "CSS", "Bootstrap", "Jquery", "Photoshop"],
+        tags: ["HTML5", "CSS3", "JavaScript", "Bootstrap", "JQuery", "PHP", "MySQL"],
         demo: "https://indsource.net/",
         repo: "#"
     }
     ,
     {
         title: "Times Property",
-        desc: "Search Properties with Times Property",
+        desc: "Provides property search, real estate news, and investment guidance.",
         image: proj7,
         tags: ["JavaScript", "HTML", "CSS", "Bootstrap", "Jquery", "Photoshop"],
         demo: "https://timesproperty.com/",
