@@ -74,9 +74,9 @@ const projects = [
     ,
     {
         title: "Times Property",
-        desc: "Provides property search, real estate news, and investment guidance.",
+        desc: "Times Property is a real estate-focused platform offering the latest property news, market insights, and developer information across major Indian cities.",
         image: proj7,
-        tags: ["JavaScript", "HTML", "CSS", "Bootstrap", "Jquery", "Photoshop"],
+        tags: ["HTML5", "CSS3", "JavaScript", "PHP", "MySQL/PostgreSQL", "Photoshop"],
         demo: "https://timesproperty.com/",
         repo: "#"
     }
