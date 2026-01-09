@@ -4,6 +4,7 @@ import {
     CardMedia, Chip, Stack, Button, Divider
 } from "@mui/material";
 import { motion } from "framer-motion";
+import proj0 from "../assets/project-1.png";
 import proj1 from "../assets/360realtors.png";
 import proj2 from "../assets/project-2.png";
 import proj3 from "../assets/project-3.png";
@@ -23,6 +24,14 @@ const cardVariants = {
 };
 
 const projects = [
+    {
+        title: "Password Generator",
+        desc: "Password Generator App in React with TailwindCSS can look sleek and professional while being super functional. It allows users to create strong, customized passwords with ease, enhancing security for their online accounts.",
+        image: proj0,
+        tags: ["React (Vite)", "TailwindCSS", "Clipboard API", "JavaScript"],
+        demo: "https://password-generator-lovat-phi.vercel.app/",
+        repo: ""
+    },
     {
         title: "360 Realtors LLP",
         desc: "360 Realtors is positioned as India’s leading property consulting company, helping users find residential and commercial properties, offering home loan consultation, NRI services, legal and Vastu consultation, and after‑sales assistance.",
