@@ -54,7 +54,7 @@ export default function Hero() {
 
                     <motion.div initial="hidden" animate="visible" variants={fadeUp} custom={1}>
                         <Typography className="top-heading" variant="h3" sx={{ lineHeight: 1.1 }}>
-                            Crafting clean, accessible, and performant{" "}
+                            Crafting High-Performance, User-Centric Web Experiences{" "}
                             <Typography component="span" color="secondary" sx={{ fontWeight: 800 }}>
                                 UI
                             </Typography>
